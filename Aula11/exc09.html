@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasileiro</title>
+</head>
+<body>
+    <h1>Brasileiro ou Estrangeiro?</h1>
+    <p>Qual pais você nasceu: </p>
+    <input type="string" name="txtpais" id="txtpais">
+    <input type="button" value="OK" onclick="ok()">
+    <div id="res"> Resultado </div>
+    <script>
+        function ok(){
+            var pais = window.document.querySelector('input#txtpais')
+            var r = 'Brasil'
+            if (pais == r) {
+                res.innerHTML = `Sua nacionalidade é <strong>Brasileiro</strong>`
+            } else {
+                res.innerHTML = `Sua nacionalidade é <strong>Estrangeira</strong>`
+            }
+        }
+    </script>
+</body>
+</html>
