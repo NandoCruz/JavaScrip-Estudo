@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrando com Dados</title>
+    <style>
+        body{
+            background: rgba(218, 149, 21, 0.5);
+            font: normal 15pt Arial;
+        }
+        h1{
+            color: rgb(150, 0 ,0);
+        }
+    </style>
+</head>
+<body>
+    <h2>Entrando com Dados</h2>
+    <p>Digitando via teclado: nome e idade</p>
+
+    <script>
+        var nome = window.prompt('Digite seu nome:')
+        var sobrenome = window.prompt('Digite seu sobrenome: ')
+        var idade = window.prompt('Digite sua idade:')
+        var num1 = Number(nome.length)
+        var num2 = Number(sobrenome.length)
+        var soma = num1 + num2
+        document.write(`Seu nome é <strong>${nome} ${sobrenome}</strong> e sua idade é <strong>${idade}</strong> anos.<br/>`)
+        document.write(`Seu nome tem <strong>${soma}</strong> letras.<br/>`)
+        document.write(`Seu nome em maiúscula fica assim <strong>${nome.toUpperCase()} ${sobrenome.toUpperCase()}</strong>.<br/>`)
+        document.write(`Seu nome em minúscula fica assim <strong>${nome.toLowerCase()} ${sobrenome.toLowerCase()}</strong>.`)    
+
+    </script>
+    
+</body>
+</html>
