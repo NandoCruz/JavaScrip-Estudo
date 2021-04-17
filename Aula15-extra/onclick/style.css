@@ -1,0 +1,44 @@
+body {
+    background: rgba(33, 165, 241, 0.616);
+    font: normal 15pt Arial;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    background: white;
+    width: 600px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+div#num input#txtn1 {
+    font: normal 14pt Arial;
+    width: 80px;
+    padding: 5px;
+}
+
+div#num input#txtn2 {
+    font: normal 14pt Arial;
+    width: 80px;
+    padding: 5px;
+}
+
+div#num input#button {
+    font: bold 14pt Arial;
+    width: 80px;
+    padding: 5px;
+}
+
+div#res {
+    padding: 30px 0px 0px 30px;
+}
+
+footer {
+    text-align: center;
+    font-weight: 12pt;
+}

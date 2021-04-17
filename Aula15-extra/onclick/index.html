@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo do onClick</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Estudo do onClick</h1>
+    </header>
+    <section>
+        <div id="num">
+            <h2>Soma de dois Valores</h2>
+            <input type="number" name="txt1" id="txtn1"> +
+            <input type="number" name="txt2" id="txtn2">
+            <input type="button" value="Somar" onclick="somar()" id="button">
+        </div>
+        <div id="res">
+            Resultado
+        </div>
+    </section>
+    <footer>
+        <p>Company &copy; Fernando Cruz</p>
+    </footer>
+    <script>
+        function somar() {
+            var tn1 = window.document.getElementById("txtn1")
+            var tn2 = window.document.getElementById("txtn2")
+            var res = window.document.getElementById("res")
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var s = n1 + n2
+            res.innerHTML = `A soma entre ${n1} e ${n2} = <strong>${s}</strong>`
+        }
+    </script>
+
+
+</body>
+
+</html>

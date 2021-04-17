@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,20 +12,22 @@
             color: rgb(0, 0, 130);
             font: normal 15pt Arial;
         }
+        
         h1 {
-            color: rgba(0,0,0, 0.8);
-    
+            color: rgba(0, 0, 0, 0.8);
         }
     </style>
 </head>
+
 <body>
     <h1>Estudando JavaScript</h1>
-    <p>Criando uma página usando os comandos: alert, confirm e prompt.</p><br>
+    <p>Criando uma página usando os comandos: alert, Number e prompt.</p><br>
     <script>
-        var n1 = Number(window.prompt('Digite um número')) // Vai pedir um número
-        var n2 = Number(window.prompt('Didite outro número')) // Vai pedir outro número
+        var n1 = Number.parseFloat(window.prompt('Digite um número')) // Vai pedir um número
+        var n2 = Number.parseFloat(window.prompt('Didite outro número')) // Vai pedir outro número
         var s = n1 + n2
         window.alert(`A soma entre ${n1} e ${n2} = ${s}`)
     </script>
 </body>
+
 </html>
