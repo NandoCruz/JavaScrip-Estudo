@@ -1,20 +1,21 @@
-function verificar(){
+function verificar() {
     var data = new Date()
     var ano = data.getFullYear()
     var fano = document.getElementById('txtano')
     var res = document.querySelector('div#res')
-    if (fano.value.length == 0 || Number(fano.value > ano)){
+    if (fano.value.length == 0 || Number(fano.value > ano)) {
         window.alert('[ERRRO!] Verifique os dados e tente novamente!')
     } else {
         var fsex = document.getElementsByTagName('radsex')
         var idade = ano - Number(fano.value)
-        var genero = ' '
+        var genero = ''
 
         if (fsex[0].checked) {
             genero = 'Homem'
         } else if (fsex[1].checked) {
             genero = 'Mulher'
         }
+
         res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
 
     }
