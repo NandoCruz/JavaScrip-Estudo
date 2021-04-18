@@ -1,4 +1,3 @@
-/*
 var c = 1
 do {
     console.log(`contar ${c}`)
@@ -6,7 +5,7 @@ do {
 }
 while (c <= 6)
 
-
+/*
 console.log('tudo bem?')
 console.log('tudo bem?')
 console.log('tudo bem?')
@@ -23,5 +22,4 @@ while (c <= 6) {
 var x = 1
 while (x <= 10) {
     console.log(`Passo ${x}`)
-    c++
 }
