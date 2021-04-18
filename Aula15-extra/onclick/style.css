@@ -29,6 +29,7 @@ div#num input#txtn2 {
 }
 
 div#num input#button {
+    background: rgb(255, 124, 2);
     font: bold 14pt Arial;
     width: 80px;
     padding: 5px;
