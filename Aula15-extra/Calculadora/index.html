@@ -6,11 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
 
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section id="corpo">
+        <div id="botao">
+            <input type="string" name="txtd" id="txtnd">
+            <p id="btn">
+                <input type="button" value="7" onclick="button7()" id="btn7">
+                <input type="button" value="8" onclick="button8()" id="btn8">
+                <input type="button" value="9" onclick="button9()" id="btn9">
+                <input type="button" value="/" onclick="dividir()" id="dividir">
+            </p>
+            <p>
+                <input type="button" value="4" onclick="button4()" id="btn4">
+                <input type="button" value="5" onclick="button5()" id="btn5">
+                <input type="button" value="6" onclick="button6()" id="btn6">
+                <input type="button" value="*" onclick="multiplicar()" id="multiplicar">
+            </p>
+            <p>
+                <input type="button" value="1" onclick="button1()" id="btn1">
+                <input type="button" value="2" onclick="button2()" id="btn2">
+                <input type="button" value="3" onclick="button3()" id="btn3">
+                <input type="button" value="-" onclick="subtrair()" id="subtrair">
+            </p>
+            <p>
+                <input type="button" value="C" onclick="buttonC()" id="btnC">
+                <input type="button" value="0" onclick="button0()" id="btn0">
+                <input type="button" value="." onclick="buttonP()" id="btnP">
+                <input type="button" value="+" onclick="somar()" id="soma">
+            </p>
+        </div>
+        <div>
 
+        </div>
+    </section>
+    <footer>
+
+        Company &copy; Fernando Cruz</footer>
 </body>
+
+</html>
 
 </html>
