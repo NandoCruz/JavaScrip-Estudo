@@ -17,38 +17,46 @@
     <section id="corpo">
         <div id="botao">
             <input type="string" name="txtd" id="txtnd">
-            <p id="btn">
+            <p>
+                <input type="button" value="CE" onclick="buttonCe()" id="btnCE">
+                <input type="button" value="(  )" onclick="buttonPa()" id="btnPA">
+                <input type="button" value="%" onclick="buttonPc()" id="btnPC">
+                <input type="button" value="/" onclick="dividir()" id="dividir">
+            </p>
+            <p>
                 <input type="button" value="7" onclick="button7()" id="btn7">
                 <input type="button" value="8" onclick="button8()" id="btn8">
                 <input type="button" value="9" onclick="button9()" id="btn9">
-                <input type="button" value="/" onclick="dividir()" id="dividir">
+                <input type="button" value="*" onclick="multiplicar()" id="multiplicar">
             </p>
             <p>
                 <input type="button" value="4" onclick="button4()" id="btn4">
                 <input type="button" value="5" onclick="button5()" id="btn5">
                 <input type="button" value="6" onclick="button6()" id="btn6">
-                <input type="button" value="*" onclick="multiplicar()" id="multiplicar">
+                <input type="button" value="-" onclick="subtrair()" id="subtrair">
             </p>
             <p>
                 <input type="button" value="1" onclick="button1()" id="btn1">
                 <input type="button" value="2" onclick="button2()" id="btn2">
                 <input type="button" value="3" onclick="button3()" id="btn3">
-                <input type="button" value="-" onclick="subtrair()" id="subtrair">
+                <input type="button" value="+" onclick="somar()" id="somar">
             </p>
             <p>
                 <input type="button" value="C" onclick="buttonC()" id="btnC">
                 <input type="button" value="0" onclick="button0()" id="btn0">
                 <input type="button" value="." onclick="buttonP()" id="btnP">
-                <input type="button" value="+" onclick="somar()" id="soma">
+                <input type="button" value="=" onclick="resultado()" id="resultado">
             </p>
         </div>
         <div>
 
         </div>
     </section>
+    <script src="script.js">
+    </script>
     <footer>
-
-        Company &copy; Fernando Cruz</footer>
+        Company &copy; Fernando Cruz
+    </footer>
 </body>
 
 </html>
