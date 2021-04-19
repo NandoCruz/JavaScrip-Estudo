@@ -19,9 +19,10 @@ var c = 1
 while (c <= 6) {
     console.log('tudo Bem?')
     c++
-}*/
-var x = 1
-while (x <= 10) {
-    console.log(`Passo ${x}`)
+*/
+var c = 1
+while (c <= 10) {
+    var n = 3 * c
+    console.log(`3 x ${c} = ${n}`)
     c++
 }

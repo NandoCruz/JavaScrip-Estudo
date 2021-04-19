@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos Contar</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Início:
+                <input type="number" name="txt01" id="txtn1">
+            </p>
+            <p>
+                Fim:
+                <input type="number" name="txt02" id="txtn2">
+            </p>
+            <p>
+                Passe:
+                <input type="number" name="passe" id="passe">
+            </p>
+            <p>
+                <input type="button" value="Contar" onclick="contar()" id="contar">
+            </p>
+        </div>
+
+        <div id="res">
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer id="Rodape">
+        Company &copy; Fernando Cruz
+    </footer>
+    <script>
+        function contar() {
+            var txn1 = window.document.getElementById("txtn1")
+            var txn2 = window.document.getElementById("txtn2")
+            var passe = window.document.getElementById("passe")
+            var res = window.document.querySelector("div#res")
+            var n1 = Number(txn1.value)
+            var n2 = Number(txn2.value)
+            var c = Number(passe.value)
+                // alert(`${n1}, ${n2} e ${c}`)
+            if (txtn1.value == 0 || txtn2.value == 0) {
+                alert(`[ERRO!] Digite um número.`)
+            }
+            while (n1 <= n2) {
+                alert(`${c}`)
+                c++
+            }
+
+        }
+    </script>
+
+
+</body>
+
+</html>
