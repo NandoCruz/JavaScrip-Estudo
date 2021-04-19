@@ -1,0 +1,39 @@
+    body {
+        background: rgba(0, 150, 200, 0.5);
+    }
+    
+    header {
+        font: bold 20pt Arial;
+        text-align: center;
+    }
+    
+    section {
+        background: white;
+        width: 500px;
+        border-radius: 10px;
+        margin: auto;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    }
+    
+    div {
+        font: normal 20pt Arial;
+        padding: 20px;
+    }
+    
+    div input#nome {
+        font: normal 18pt Arial;
+        padding: 5px;
+    }
+    
+    div input#btnAlterar {
+        font: bold 15pt Arial;
+        padding: 5px;
+        background: rgb(170, 14, 14);
+        color: white;
+    }
+    
+    footer {
+        text-align: center;
+        font: normal 12pt Arial;
+        margin: 10px;
+    }

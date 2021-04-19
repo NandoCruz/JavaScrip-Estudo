@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterando Texto</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Alterando o texto pelo javaScript</h1>
+    </header>
+    <section>
+        <div id="Texto">
+            <p> Digite seu nome.</p>
+            <input type="string" name="txtnome" id="nome">
+            <input type="button" value="Alterar" onclick="alterar()" id="btnAlterar">
+        </div>
+        <div id="res">
+            Resposta
+        </div>
+    </section>
+    <footer>
+        Company &copy; Fernando Cruz
+    </footer>
+    <script>
+        function alterar() {
+            var nome = window.document.getElementById('nome')
+            var res = window.document.getElementById('res')
+            var txtnome = (nome.value);
+
+            alert(`Tudo certo até aqui, Sr. ${txtnome}!`)
+            res.innerHTML = `Seu nome é ${txtnome}.`
+        }
+    </script>
+</body>
+
+</html>
