@@ -1,5 +1,5 @@
 body {
-    background: rgb(126, 1, 1);
+    background: rgb(126, 0, 0);
     font: normal 18pt Arial;
 }
 
@@ -15,11 +15,34 @@ section {
     border-radius: 10px;
     margin: auto;
     padding: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
-div {}
+div input#txtnome {
+    font: normal 15pt Arial;
+    padding: 5px;
+}
+
+div input#data {
+    font: normal 15pt Arial;
+    padding: 5px;
+}
+
+div input#verifica {
+    background: rgb(126, 0, 0);
+    color: white;
+    font: normal 18pt Arial;
+    padding: 5px;
+    width: 120px;
+}
+
+div#res {
+    padding: 40px;
+}
 
 footer {
     text-align: center;
     font: normal 12pt Arial;
+    margin: 10px;
+    color: white;
 }
