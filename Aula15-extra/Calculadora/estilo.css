@@ -1,201 +1,236 @@
-body {
-    background: rgb(1, 222, 251);
-}
-
-header {
-    font: bold 20pt Arial;
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-
-section#corpo div#botao {
-    background-color: rgb(255, 254, 242);
-    width: 500px;
-    border-radius: 10px;
-    padding: 10px;
-    margin: auto;
-    font: normal 14pt Arial;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-}
-
-div#botao input#txtnd {
-    font: normal 25pt Arial;
-    width: 422px;
-    border-radius: 10px;
-    margin: 10px 10px 10px 20px;
-    padding: 10px;
-}
-
-section#corpo div#botao p {
-    margin: auto;
-    padding: 15px;
-}
-
-div#botao input#btnC {
-    font: bold 30pt Arial;
-    color: white;
-    background: rgb(155, 1, 1);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#btn0 {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#btnP {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#resultado {
-    font: bold 30pt Arial;
-    color: white;
-    background: rgb(1, 2, 80);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#btn1 {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#btn2 {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#btn3 {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#somar {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#btn4 {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#btn5 {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#btn6 {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#subtrair {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#btn7 {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#btn8 {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#btn9 {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#multiplicar {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#btnCE {
-    font: bold 30pt Arial;
-    color: white;
-    background: rgb(18, 92, 0);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#btnPA {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#btnPC {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-div#botao input#dividir {
-    font: bold 30pt Arial;
-    background: rgb(38, 207, 223);
-    width: 100px;
-    border-radius: 10px;
-    margin: 0px 5px 0px 5px;
-}
-
-footer {
-    font: normal 12pt Arial;
-    text-align: center;
-    margin: 20px;
-}
+    body {
+        background: rgb(1, 222, 251);
+    }
+    /* Titulo */
+    
+    header {
+        font: bold 20pt Arial;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin: -20px 0px -20px 0px;
+    }
+    /* Corpo da Section*/
+    
+    section#corpo div#botao {
+        background-color: rgb(255, 254, 242);
+        width: 500px;
+        border-radius: 10px;
+        padding: 5px;
+        margin: auto;
+        font: normal 5pt Arial;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+    /* Display da calculadora */
+    
+    div#botao div#res {
+        font: bold 30pt Arial;
+        width: 432px;
+        border-radius: 10px;
+        margin: auto;
+        text-align: right;
+        padding: 10px 5px 5px 5px;
+    }
+    
+    div#botao div#res p {
+        font: bold 30pt Arial;
+        width: 402px;
+        border-radius: 10px;
+        background: blue;
+        color: yellow;
+    }
+    
+    section#corpo div#botao p {
+        margin: 0px 0px 0px 0px;
+        padding: 15px;
+    }
+    /* Botão limpar o Display tecla (C) */
+    
+    div#botao input#btnC {
+        font: bold 30pt Arial;
+        color: white;
+        background: rgb(155, 1, 1);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (0)*/
+    
+    div#botao input#btn0 {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (.)*/
+    
+    div#botao input#btnP {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (=)*/
+    
+    div#botao input#igual {
+        font: bold 30pt Arial;
+        color: white;
+        background: rgb(1, 2, 80);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (1)*/
+    
+    div#botao input#btn1 {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (2)*/
+    
+    div#botao input#btn2 {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (3)*/
+    
+    div#botao input#btn3 {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (+)*/
+    
+    div#botao input#somar {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (4)*/
+    
+    div#botao input#btn4 {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (5)*/
+    
+    div#botao input#btn5 {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (6)*/
+    
+    div#botao input#btn6 {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (-)*/
+    
+    div#botao input#subtrair {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (7)*/
+    
+    div#botao input#btn7 {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (8)*/
+    
+    div#botao input#btn8 {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (9)*/
+    
+    div#botao input#btn9 {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (*)*/
+    
+    div#botao input#multiplicar {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (CE)*/
+    
+    div#botao input#btnCE {
+        font: bold 30pt Arial;
+        color: white;
+        background: rgb(18, 92, 0);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla ( ( ) )*/
+    
+    div#botao input#btnPA {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (%)*/
+    
+    div#botao input#btnPC {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Botão tecla (/)*/
+    
+    div#botao input#dividir {
+        font: bold 30pt Arial;
+        background: rgb(38, 207, 223);
+        width: 100px;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* Rodaper */
+    
+    footer {
+        font: normal 12pt Arial;
+        text-align: center;
+        margin: 20px;
+    }

@@ -15,11 +15,18 @@
         <h1>Calculadora</h1>
     </header>
     <section id="corpo">
+
         <div id="botao">
-            <input type="string" name="txtd" id="txtnd">
+            <!-- Display da calculadora -->
+            <div id="res">
+                <p>0</p>
+
+            </div>
+
+            <!-- Botões -->
             <p>
                 <input type="button" value="CE" onclick="buttonCe()" id="btnCE">
-                <input type="button" value="(  )" onclick="buttonPa()" id="btnPA">
+                <input type="button" value="( )" onclick="buttonPa()" id="btnPA">
                 <input type="button" value="%" onclick="buttonPc()" id="btnPC">
                 <input type="button" value="/" onclick="dividir()" id="dividir">
             </p>
@@ -45,9 +52,10 @@
                 <input type="button" value="C" onclick="buttonC()" id="btnC">
                 <input type="button" value="0" onclick="button0()" id="btn0">
                 <input type="button" value="." onclick="buttonP()" id="btnP">
-                <input type="button" value="=" onclick="resultado()" id="resultado">
+                <input type="button" value="=" onclick="igual()" id="igual">
             </p>
         </div>
+
         <div>
 
         </div>
