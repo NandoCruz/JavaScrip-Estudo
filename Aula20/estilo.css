@@ -1,11 +1,47 @@
 body {
-    background: rgb(4, 247, 255);
+    background: rgb(0, 190, 200);
 }
 
 header {
     font: bold 16pt Arial;
+    text-align: center;
 }
 
-section {}
+section {
+    background: white;
+    width: 600px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    font: normal 18pt Arial;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
 
-footer {}
+div#num input#txtnum {
+    font: normal 16pt Arial;
+    width: 100px;
+    padding: 8px;
+    margin: 0px 10px 0px 10px;
+}
+
+div#num input#add {
+    font: bold 16pt Arial;
+    background: rgb(0, 170, 170);
+    border-radius: 7px;
+    padding: 8px;
+    width: 150px;
+}
+
+div#fim input#final {
+    font: bold 16pt Arial;
+    background: rgb(0, 170, 170);
+    border-radius: 7px;
+    padding: 8px;
+    width: 150px;
+}
+
+footer {
+    font: normal 12pt Arial;
+    text-align: center;
+    margin: 20px;
+}
