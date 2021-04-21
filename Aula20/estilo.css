@@ -32,7 +32,7 @@ div#num input#add {
     width: 150px;
 }
 
-div#fim input#final {
+input#final {
     font: bold 16pt Arial;
     background: rgb(0, 170, 170);
     border-radius: 7px;
