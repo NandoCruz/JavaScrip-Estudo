@@ -32,12 +32,20 @@ div#num input#add {
     width: 150px;
 }
 
+select#lista {
+    width: 150px;
+}
+
 input#final {
     font: bold 16pt Arial;
     background: rgb(0, 170, 170);
     border-radius: 7px;
     padding: 8px;
     width: 150px;
+}
+
+div#res {
+    margin: 20px;
 }
 
 footer {
