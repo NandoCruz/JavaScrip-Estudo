@@ -33,7 +33,8 @@ div#num input#add {
 }
 
 select#lista {
-    width: 150px;
+    font: normal 16pt Arial;
+    width: 250px;
 }
 
 input#final {
